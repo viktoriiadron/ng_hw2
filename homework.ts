@@ -17,7 +17,7 @@ interface Customer extends User {
     ammount: number;
 }
 
-interface DanseHall {
+interface DanсeHall {
     name: string;
     prisePerCustomer: number;
     priceForRent: number;
@@ -31,7 +31,7 @@ interface DanceSchool {
     address: string;
     bankAccount: string;
     isWorking: boolean;
-    danceHalls: DanseHall[];
+    danceHalls: DanсeHall[];
 }
 
 console.log('hello world')
