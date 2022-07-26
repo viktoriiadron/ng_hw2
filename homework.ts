@@ -19,7 +19,7 @@ interface Customer extends User {
 
 interface DanсeHall {
     name: string;
-    prisePerCustomer: number;
+    pricePerCustomer: number;
     priceForRent: number;
     capacity: number;
     isEmpty: boolean;
